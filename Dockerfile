@@ -12,7 +12,7 @@ RUN wget -O - http://cdn.melown.com/packages/keys/oss.packages%40melown.com.key 
 
 RUN apt-get update
 
-CMD apt install -y vts-backend
+RUN apt install -y vts-backend
 
 # VTS Backend Port
 EXPOSE 8070
